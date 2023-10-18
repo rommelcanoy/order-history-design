@@ -1,4 +1,10 @@
 import history1 from '@/public/assets/history1.png';
+// import history2 from '@/public/assets/history2.png';
+import history3 from '@/public/assets/history3.png';
+import history4 from '@/public/assets/history4.png';
+import history5 from '@/public/assets/history5.png';
+import history6 from '@/public/assets/history6.png';
+import history7 from '@/public/assets/history7.png';
 
 const orders = [
   {
@@ -31,12 +37,12 @@ const orders = [
     ],
     "price": {
       "currency": "€",
-      "amount": 150.00
+      "amount": 2320.00
     }
   },
   {
     "id": 123457,
-    "image": history1,
+    "image": history3,
     "productName": "Luxury Suite in Paris, France",
     "accommodationName": "Le Grand Hotel",
     "location": {
@@ -70,7 +76,7 @@ const orders = [
   },
   {
     "id": 123458,
-    "image": history1,
+    "image": history4,
     "productName": "Beachfront Villa in Bali, Indonesia",
     "accommodationName": "Tropical Paradise Resort",
     "location": {
@@ -105,7 +111,75 @@ const orders = [
   },
   {
     "id": 123459,
-    "image": history1,
+    "image": history5,
+    "productName": "Mountain Chalet in Aspen, USA",
+    "accommodationName": "Snowy Peaks Lodge",
+    "location": {
+      "city": "Aspen",
+      "country": "USA"
+    },
+    "guests": 6,
+    "bathrooms": 3,
+    "bedrooms": 3,
+    "beds": 3,
+    "smokingPolicy": "No Smoking",
+    "amenities": [
+      "Wi-Fi",
+      "Fireplace",
+      "Ski Access"
+    ],
+    "bookingDetails": {
+      "date": "2023-11-28",
+      "status": "Completed"
+    },
+    "discount": "12%",
+    "ratings": [
+      5,
+      5,
+      4
+    ],
+    "price": {
+      "currency": "€",
+      "amount": 350.00
+    }
+  },
+  {
+    "id": 123442,
+    "image": history6,
+    "productName": "Mountain Chalet in Aspen, USA",
+    "accommodationName": "Snowy Peaks Lodge",
+    "location": {
+      "city": "Aspen",
+      "country": "USA"
+    },
+    "guests": 6,
+    "bathrooms": 3,
+    "bedrooms": 3,
+    "beds": 3,
+    "smokingPolicy": "No Smoking",
+    "amenities": [
+      "Wi-Fi",
+      "Fireplace",
+      "Ski Access"
+    ],
+    "bookingDetails": {
+      "date": "2023-11-28",
+      "status": "Completed"
+    },
+    "discount": "12%",
+    "ratings": [
+      5,
+      5,
+      4
+    ],
+    "price": {
+      "currency": "€",
+      "amount": 350.00
+    }
+  },
+  {
+    "id": 133555,
+    "image": history7,
     "productName": "Mountain Chalet in Aspen, USA",
     "accommodationName": "Snowy Peaks Lodge",
     "location": {
